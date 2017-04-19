@@ -19,13 +19,45 @@
                 </ul>
             </nav>
             <div class="user-block"> <a href="#">Корзина</a> </div>
-           <h2 class="header-title">Магазин готовых шаблонов</h2>
+            <h2 class="header-title">Магазин готовых шаблонов</h2>
         </div>
     </header>
     <main class="page-main">
         <div class="container">
-             </div>
+        </div>
     </main>
+    <block class="column-choice">
+        <div class="choice">
+            <div class="choice-box-1">
+                <h3 class="col-cost">СТОИМОСТЬ</h3>
+                <img src="img/scale.jpg" alt="Шкала" width="50px" height="30px">
+                <form action="#" method="post">от</form>
+                <input type="text" name="total" id="field-1" value="0">
+                <form action="#" method="post">до</form>
+                <input type="text" name="total" id="field-2" value="15000">
+            </div>
+            <div class="choice-box-2">
+                <h3 class="choice-1">СЕТКА:</h3>
+                <label><input type="radio" name="adaptative" checked>Адаптивная</label>
+                <label><input type="radio" name="fixed">Фиксированная</label>
+                <label><input type="radio" name="elastic">Резиновая</label>
+            </div>
+            <div class="choice-box-3">
+                <h3 class="choice-2">ОСОБЕННОСТИ</h3>
+                <input textarea name="subscribe" id="slider" type="checkbox" checked>
+                <label for="slider">Слайдер</label>
+                <input textarea name="subscribe" id="block-advantage" type="checkbox">
+                <label for="field-2">Блок преимуществ</label>
+                <input textarea name="subscribe" id="news" type="checkbox" checked>
+                <label for="news">Новости</label>
+                <input textarea name="subscribe" id="gallery" type="checkbox">
+                <label for="gallery">Галерея</label>
+                <input textarea name="subscribe" id="basket" type="checkbox">
+                <label for="basket">Корзина</label>
+            </div>
+            <button class="show">ПОКАЗАТЬ</button>
+        </div>
+    </block>
 </body>
 
 </html>
