@@ -134,13 +134,20 @@
     </div>
   </footer>
   <div class="feedback">
-    <form action="#" method="post">
-      <label for="name-field">Ваше имя:</label>
+    <button class="close-btn" type="button">Закрыть</button>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <div class="feedback-name">
+        <label for="name-field">Ваше имя:</label>
       <input type="text" name="name" id="name-field" value="Представьтесь, пожалуйста.">
-      <label for="email-field">Ваш email:</label>
-      <input type "text" name="email" id="email-field">
-      <p class="message">Ваше сообщение</p>
+      </div>
+      <div class="feedback-email">
+        <label for="email-field">Ваш email:</label>
+        <input type "text" name="email" id="email-field">
+      </div>
+      <div class="feedback-message">
+      <label for="comment">Ваше сообщение</label>
       <textarea name="comment" id="comment" rows="8">Текст Вашего сообщения:</textarea>
+      </div>
       <input type="submit" value="Отправить">
     </form>
   </div>
