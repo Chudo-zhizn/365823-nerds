@@ -1,0 +1,48 @@
+body {
+  font-family: Roboto;
+  /* при нажатии T  Mariad Pro*/
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
+
+.slide-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: bold;
+  /* в Ps - medium */
+}
+
+.content-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+
+/*Может быть все остальные h2 переделать в span?*/
+
+.feature-title {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  /*  medium*/
+}
+
+.feature-action {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.contatct-tilte {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.footer-slogan {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
