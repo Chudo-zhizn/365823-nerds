@@ -10,16 +10,20 @@
 <body>
     <header class="page-header">
         <div class="container">
-            <a class="header-logo"> <img src="img/content-img/nerds-logo.png" width="160" height="65" alt="logotip"> </a>
-            <nav class="page-navigation">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#">Студия</a> </li>
-                    <li class="nav-item"><a href="#">Клиенты</a> </li>
-                    <li class="nav-item"><a href="catalog.html">Магазин</a> </li>
-                    <li class="nav-item"><a href="#">Контакты</a> </li>
-                </ul>
-            </nav>
-            <div class="user-block"> <a href="#">Корзина</a> </div>
+            <div class="page-header-top clearfix">
+                <a class="header-logo"> <img src="img/content-img/nerds-logo.png" width="160" height="65" alt="logotip"> </a>
+                <nav class="page-navigation">
+                    <ul class="nav-list clearfix">
+                        <li class="nav-item"><a href="#">Студия</a> </li>
+                        <li class="nav-item"><a href="#">Клиенты</a> </li>
+                        <li class="nav-item"><a href="catalog.html">Магазин</a> </li>
+                        <li class="nav-item"><a href="#">Контакты</a> </li>
+                    </ul>
+                </nav>
+                <div class="user-block"> <a href="#">Корзина</a>
+                </div>
+            </div>
+
             <div class="slides">
                 <div class="slide-toggle">
                     <input type="radio" name="toogle" id="slide-1" checked>
@@ -49,10 +53,11 @@
     </header>
     <main class="page-main">
         <div class="container">
-            <div class="content">
+            <div class="content clearfix">
                 <div class="content-item">
                     <h2 class="content-title">Веб-сайты</h2>
-                    <p class="content-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p> <a href="#">Заказать</a> </div>
+                    <p class="content-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p> <a href="#">Заказать</a>
+                </div>
                 <div class="content-item">
                     <h2 class="content-title">Приложение</h2>
                     <p class="content-description">Покорите топ-10 приложений в AppStore и Google Play</p> <a href="#">Заказать</a>
@@ -62,7 +67,8 @@
                     <p class="content-description">Вы даже не подозреваете, насколько вы изумительны!</p> <a href="#">Заказать</a>
                 </div>
             </div>
-            <div class="feature">
+
+            <div class="feature clearfix">
                 <div class="feature-left">
                     <h2 class="feature-title">Мы - маленькая, но гордая дизайн-студия из Краснодара. </h2>
                     <p class="feature-description">Исповедуем принципы минимализма чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
@@ -73,7 +79,7 @@
                         <li class="feature-item">Слайдшоу и видео для корпоративных презентаций</li>
                     </ul>
                 </div>
-                <div class="featuer-right">
+                <div class="feature-right">
                     <img src="img/decor-img/nerds-illustration.jpg" width="360" height="208" alt="nёrd's">
                     <h2 class="feature-action">с 2004 года Любим точность во всем:</h2>
                     <ul class="feature-list">
@@ -90,22 +96,30 @@
                 </div>
             </div>
             <div class="partners">
-                <a href="#">
-                    <img src="img/content-img/logo-html.png" width="199" height="68" alt="html academy">
-                </a>
-                <a href="#">
-                    <img src="img/content-img/logo-barb.png" width="209" height="90" alt="Barbershop BORODINSKI">
-                </a>
-                <a href="#">
-                    <img src="img/content-img/logo-pink.png" width="185" height="52" alt="PINK">
-                </a>
-                <a href="#">
-                    <img src="img/content-img/logo-mishka.png" width="173" height="84" alt="MISHKA">
-                </a>
+                <div class="partner partner-1">
+                    <a href="#">
+                        <img src="img/content-img/logo-html.png" width="199" height="68" alt="html academy">
+                    </a>
+                </div>
+                <div class="partner partner-2">
+                    <a href="#">
+                        <img src="img/content-img/logo-barb.png" width="209" height="90" alt="Barbershop BORODINSKI">
+                    </a>
+                </div>
+                <div class="partner partner-3">
+                    <a href="#">
+                        <img src="img/content-img/logo-pink.png" width="185" height="52" alt="PINK">
+                    </a>
+                </div>
+                <div class="partner partner-4">
+                    <a href="#">
+                        <img src="img/content-img/logo-mishka.png" width="173" height="84" alt="MISHKA">
+                    </a>
+                </div>
             </div>
         </div>
         <div class="map-canvas">
-            <div class="container">
+            <div class="page-map">
                 <img src="img/map.jpg" width="1440" height="416" alt="map">
                 <div class="map-contact">
                     <h2 class="contact-title">NЁRDS DESIGN STUDIO</h2>
@@ -117,14 +131,16 @@
         </div>
     </main>
     <footer class="footer-content">
-        <div class="footer-social">
-            <a class="social-btn social-btn-vk" href="#">В контакте</a>
-            <a class="social-btn social-btn-fb" href="#">Facebook</a>
-            <a class="social-btn social-btn-inst" href="#">instagram</a>
-        </div>
-        <div class="footer-slogan">
-            <h2 class="footer-slogan">Давайте дружить, это выгодно!</h2>
-            <p class="footer-offer">Скидка 10% для друзей из социальных сетей.</p>
+        <div class="container">
+            <div class="footer-social clearfix">
+                <a class="social-btn social-btn-vk" href="#">В контакте</a>
+                <a class="social-btn social-btn-fb" href="#">Facebook</a>
+                <a class="social-btn social-btn-inst" href="#">instagram</a>
+            </div>
+            <div class="footer-slogan">
+                <h2 class="page-slogan">Давайте дружить, это выгодно!</h2>
+                <p class="footer-offer">Скидка 10% для друзей из социальных сетей.</p>
+            </div>
         </div>
     </footer>
     <div class="feedback">
